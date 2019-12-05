@@ -1,0 +1,11 @@
+Package: lubuntu-win10-taskbar
+Version: 0.0.1
+Installed-Size: 
+Maintainer: ailtonbsj <ailton.ifce@gmail.com>
+Section: utils
+Architecture: all
+Priority: optional
+Homepage: https://ailtonbsj.github.io
+Description: A taskbar with style of windows ten.
+ This is a taskbar with theme of win10 and function to
+ restore using hotkey.
