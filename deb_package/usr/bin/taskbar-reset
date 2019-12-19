@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cp -rf /etc/skel/.config/lxpanel/Lubuntu/panels/panel ~/.config/lxpanel/Lubuntu/panels/
+cp -rf /etc/skel/.config/lxpanel/Lubuntu/panels/left ~/.config/lxpanel/Lubuntu/panels/
+lxpanelctl restart

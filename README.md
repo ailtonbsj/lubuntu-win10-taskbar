@@ -2,6 +2,10 @@
 
 This is a taskbar of lubuntu with windows theme.
 
+You can reset the taskbar using the keys `[Super] + [Alt] + R`.
+
+The taskbar is available with two monitor too.
+
 ## lxhotkey commands
 
 ```bash

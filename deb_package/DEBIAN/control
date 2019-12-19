@@ -5,6 +5,7 @@ Maintainer: ailtonbsj <ailton.ifce@gmail.com>
 Section: utils
 Architecture: all
 Priority: optional
+Depends: lubuntu-win10-theme
 Homepage: https://ailtonbsj.github.io
 Description: A taskbar with style of windows ten.
  This is a taskbar with theme of win10 and function to

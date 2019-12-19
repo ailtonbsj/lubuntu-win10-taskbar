@@ -1,0 +1,5 @@
+#!/bin/bash
+
+lxhotkey app "taskbar-reset" --
+lxhotkey app "taskbar-reset" "<Super><Alt>R"
+sed -i "s/taskbar-hotkey-enable//g" ~/.config/lxsession/Lubuntu/autostart
