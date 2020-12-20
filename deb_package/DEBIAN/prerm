@@ -19,3 +19,6 @@ while read USUARIO; do
  	fi
 done < /tmp/homes.list
 runByUsers "/etc/skel" "root"
+
+# Lightdm Greeter
+rm -rf /etc/lightdm/lightdm-gtk-greeter.conf

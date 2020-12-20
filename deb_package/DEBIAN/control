@@ -1,12 +1,12 @@
-Package: lubuntu-win10-taskbar
-Version: 0.0.1
+Package: lxde-win-theme-apply
+Version: 0.0.2
 Installed-Size: 
 Maintainer: ailtonbsj <ailton.ifce@gmail.com>
 Section: utils
 Architecture: all
 Priority: optional
-Depends: lubuntu-win10-theme
+Depends: lubuntu-win10-theme, lubuntu-win8-cursor-theme, lubuntu-win10-icon-theme, fonts-dejavu
 Homepage: https://ailtonbsj.github.io
-Description: A taskbar with style of windows ten.
+Description: Apply theme and taskbar with style of windows ten.
  This is a taskbar with theme of win10 and function to
  restore using hotkey.
