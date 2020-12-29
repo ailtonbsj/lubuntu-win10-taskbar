@@ -22,3 +22,10 @@ runByUsers "/etc/skel" "root"
 
 # Lightdm Greeter
 rm -rf /etc/lightdm/lightdm-gtk-greeter.conf
+
+if [ -f /usr/share/lubuntu/wallpapers/1804-lubuntu-default-wallpaper.png ]; then
+	cd /usr/share/lubuntu/wallpapers/
+	if [ -f lubuntu-original-wallpaper.png ]; then
+		mv lubuntu-original-wallpaper.png 1804-lubuntu-default-wallpaper.png
+	fi
+fi

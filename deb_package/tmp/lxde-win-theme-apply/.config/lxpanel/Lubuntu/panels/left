@@ -3,22 +3,16 @@
 
 Global {
   edge=bottom
-  allign=left
-  margin=0
-  widthtype=percent
-  width=100
+  monitor=1
   height=41
+  align=left
+  iconsize=40
   transparent=1
+  background=0
   tintcolor=#000000
-  alpha=200
-  setdocktype=1
-  setpartialstrut=1
+  alpha=201
   usefontcolor=1
   fontcolor=#ffffff
-  background=0
-  backgroundfile=/usr/share/lxpanel/images/lubuntu-background.png
-  iconsize=40
-  monitor=0
 }
 Plugin {
   type=menu
@@ -46,7 +40,7 @@ Plugin {
       id=pcmanfm.desktop
     }
     Button {
-      id=menu://applications/Internet/firefox.desktop
+      id=firefox.desktop
     }
     Button {
       id=libreoffice-writer.desktop
@@ -79,24 +73,11 @@ Plugin {
 }
 Plugin {
   type=taskbar
-  expand=1
   Config {
-    tooltips=1
-    IconsOnly=1
-    AcceptSkipPager=1
-    ShowIconified=1
-    ShowMapped=1
+    IconsOnly=-1
     ShowAllDesks=0
-    UseMouseWheel=1
-    UseUrgencyHint=1
-    FlatButton=0
-    MaxTaskWidth=150
     spacing=4
-  }
-}
-Plugin {
-  type=tray
-  Config {
+    MaxTaskWidth=150
   }
 }
 Plugin {
@@ -123,7 +104,5 @@ Plugin {
 Plugin {
   type=wincmd
   Config {
-    Button1=iconify
-    Button2=shade
   }
 }
